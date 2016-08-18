@@ -4,11 +4,14 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+$font-color : white;
+
 #header-container{
   max-width: 1298px;
   height:100vh;
   background-image: url("/images/Header Background.png");
   background-repeat: no-repeat;
+  color: $font-color;
 }
 .cbtn{
 
