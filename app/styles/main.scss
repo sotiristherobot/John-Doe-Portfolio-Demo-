@@ -19,7 +19,7 @@ $font-color : white;
   display: table;
   height: 100%;
 }
-#va-center{
+.va-center{
   float:none;
   display:table-cell;
   vertical-align:middle;
@@ -53,9 +53,21 @@ $font-color : white;
 }
 
 /* Portfolio */
+
+#portfolio-row{
+  height: 355px;
+}
+
+
+#portfolio-wrapper{
+  display: table;
+}
+
 #portfolio-pic1{
   background-image: url("/images/photo_1.png");
   background-repeat: no-repeat;
+  height:100%;
+}
+#portfolio-text{
   height: 355px;
-
 }
