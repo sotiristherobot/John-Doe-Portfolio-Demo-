@@ -24,6 +24,8 @@ $font-color : white;
   display:table-cell;
   vertical-align:middle;
 }
+
+/* Landing page buttons */
 #landing-page-ul{
   padding-left: 0;
 }
@@ -35,11 +37,17 @@ $font-color : white;
   background-color: teal;
   width: 245px;
   height: 40px;
-  vertical-align:middle;
-}
-.text{
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 40px;
+  vertical-align: middle;
+
 }
 
+.cbtn a{
+  color: $font-color;
+}
 
+/* Fun Facts */
+.title{
+  text-transform: uppercase;
+  border-bottom: solid 5px teal;
+}
