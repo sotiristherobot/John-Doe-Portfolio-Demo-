@@ -6,13 +6,25 @@ $icon-font-path: '../fonts/';
 
 $font-color : white;
 
-#header-container{
+#header-wrapper{
   max-width: 1298px;
   height:100vh;
   background-image: url("/images/Header Background.png");
   background-repeat: no-repeat;
   color: $font-color;
+
+
 }
+#landing-page-container{
+  display: table;
+  height: 100%;
+}
+#va-center{
+  float:none;
+  display:table-cell;
+  vertical-align:middle;
+}
+
 .cbtn{
 
   display: inline-block;
@@ -20,6 +32,7 @@ $font-color : white;
   background-repeat: no-repeat;
   width: 200px;
   height: 40px;
+  vertical-align:middle;
 }
 
 
