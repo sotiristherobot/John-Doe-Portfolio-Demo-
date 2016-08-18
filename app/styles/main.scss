@@ -24,15 +24,22 @@ $font-color : white;
   display:table-cell;
   vertical-align:middle;
 }
-
+#landing-page-ul{
+  padding-left: 0;
+}
 .cbtn{
 
   display: inline-block;
-  background-image: url("/images/btn.png");
-  background-repeat: no-repeat;
-  width: 200px;
+  //background-image: url("/images/btn.png");
+  //background-repeat: no-repeat;
+  background-color: teal;
+  width: 245px;
   height: 40px;
   vertical-align:middle;
+}
+.text{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
