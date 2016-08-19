@@ -6,15 +6,29 @@ $icon-font-path: '../fonts/';
 
 $font-color : white;
 
-#header-wrapper{
-  max-width: 1298px;
-  height:100vh;
-  background-image: url("/images/Header Background.png");
-  background-repeat: no-repeat;
-  color: $font-color;
-
-
+html,body{
+  height: 100%;
 }
+
+#header-wrapper{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  color: $font-color;
+  background-image: url("/images/HeaderBackground.png");
+  background-repeat: no-repeat;
+}
+
+#intro-content{
+  text-align: center;
+  width: 50%;
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .landing-page-container{
   display: table;
   height: 100%;
