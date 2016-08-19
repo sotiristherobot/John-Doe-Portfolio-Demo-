@@ -62,13 +62,15 @@ $font-color : white;
 }
 
 .portfolio-text{
-  margin-top: 6%;
+  transform: translateY(10%);
 }
 
-#portfolio-text2{
-  height: 484px;
 
-
+/* Photographer */
+#photographer{
+  max-width: 1298px;
+  height: 499px;
+  background-image: url("/images/photographer1.png");
+  background-repeat: no-repeat;
 }
-
 
