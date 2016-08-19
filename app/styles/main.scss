@@ -23,10 +23,12 @@ $font-color : white;
   float:none;
   display:table-cell;
   vertical-align:middle;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Landing page buttons */
-#landing-page-ul{
+.landing-page-ul{
   padding-left: 0;
 }
 .cbtn{
@@ -54,20 +56,19 @@ $font-color : white;
 
 /* Portfolio */
 
-#portfolio-row{
-  height: 355px;
+.section-heading{
+
+  margin-bottom: 30px;
 }
 
-
-#portfolio-wrapper{
-  display: table;
-}
-
-#portfolio-pic1{
-  background-image: url("/images/photo_1.png");
-  background-repeat: no-repeat;
-  height:100%;
-}
 #portfolio-text{
   height: 355px;
 }
+
+#portfolio-text2{
+  height: 484px;
+
+
+}
+
+
