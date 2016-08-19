@@ -167,7 +167,7 @@
 
       <div class="row">
 
-        <div class="col-sm-4">
+        <div class="col-sm-offset-4 col-sm-4">
 
           <form id="contact-form">
 
@@ -175,10 +175,13 @@
 
 
               <input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" type="text" data-error-empty="How should I call you?">
+              <input id="contact-email" name="contactEmail" placeholder="Your email" class="form-control requiredField" type="text" data-error-empty="How should I call you?">
+              <textarea id="contact-message" name="comments" placeholder="Your message" class="form-control requiredField" rows="6" data-error-empty="Do you want to say something?"></textarea>
+
             </div>
 
 
-
+            <button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button>
           </form>
 
 
