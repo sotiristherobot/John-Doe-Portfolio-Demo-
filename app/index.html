@@ -171,14 +171,24 @@
 
           <form id="contact-form">
 
-            <div class="controls">
+            <div class="form-group"><input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" type="text" data-error-empty="How should I call you?"></div>
+            <div class="form-group">
 
 
-              <input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" type="text" data-error-empty="How should I call you?">
               <input id="contact-email" name="contactEmail" placeholder="Your email" class="form-control requiredField" type="text" data-error-empty="How should I call you?">
+            </div>
+            <div class="form-group">
               <textarea id="contact-message" name="comments" placeholder="Your message" class="form-control requiredField" rows="6" data-error-empty="Do you want to say something?"></textarea>
 
+
             </div>
+
+
+
+
+
+
+
 
 
             <button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button>
@@ -193,6 +203,29 @@
 
 
     </section>
+
+
+    <!-- Footer !-->
+    <footer>
+      <div class="container">
+        <div class="row text-center">
+          <hr>
+
+
+          <div>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
+          </div>
+          <h5> Designed by Henry Reyes. Developed by Sotiris Ioannou.</h5>
+
+        </div>
+
+      </div>
+
+
+    </footer>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

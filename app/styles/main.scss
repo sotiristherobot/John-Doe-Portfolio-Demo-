@@ -98,3 +98,12 @@ html,body{
   background-repeat: no-repeat;
 }
 
+
+/* From Control */
+.form-control{
+  background-color: transparent;
+  border: 1px solid #6a6a6a;
+  border-radius: 0;
+  height: 48px;
+  font-size:14px;
+}
